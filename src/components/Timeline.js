@@ -19,29 +19,35 @@ class Timeline extends React.Component {
             </div>
             <div className="timepoint right">
                 <div className="content">
+                <h2>1984</h2>
+                <p>Became a W.C. Claims Adjustor</p>
+                </div>
+            </div>
+            <div className="timepoint left">
+                <div className="content">
                 <h2>1985</h2>
                 <p>American College of Law, J.D.</p>
                 </div>
             </div>
-            <div className="timepoint left">
+            <div className="timepoint right">
                 <div className="content">
                 <h2>1988</h2>
                 <p>Insurance Educational Association</p>
                 </div>
             </div>
-            <div className="timepoint right">
+            <div className="timepoint left">
                 <div className="content">
                 <h2>1991</h2>
                 <p>Supreme Court of the State of California (became an attorney)</p>
                 </div>
             </div>
-            <div className="timepoint left">
+            <div className="timepoint right">
                 <div className="content">
                 <h2>2001</h2>
                 <p>United State District Central Court</p>
                 </div>
             </div>
-            <div className="timepoint right">
+            <div className="timepoint left">
                 <div className="content">
                 <h2>2002</h2>
                 <p>Founded Law Corporation</p>
