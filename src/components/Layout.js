@@ -119,21 +119,21 @@ class Layout extends React.Component {
         
     
         <div id="colorlib-consult">
-            <div className="video colorlib-video" style={{backgroundImage: 'url(images/video.jpg)'}} data-stellar-background-ratio="0.5">
+            <div className="video colorlib-video" style={{backgroundImage: 'url(images/books.jpg)'}} data-stellar-background-ratio="0.5">
             </div>
             <div className="choose choose-form animate-box">
                 <div className="colorlib-heading">
-                    <h2>Free Legal Consultation</h2>
+                    <h2>Contact Us</h2>
                 </div>
                 <form action="#">
                     <div className="row form-group">
                         <div className="col-md-6">
                             <label for="fname">First Name</label>
-                            <input type="text" id="fname" className="form-control" placeholder="Your firstname"/>
+                            <input type="text" id="fname" className="form-control" placeholder="Your first name"/>
                         </div>
                         <div className="col-md-6">
                             <label for="lname">Last Name</label>
-                            <input type="text" id="lname" className="form-control" placeholder="Your lastname"/>
+                            <input type="text" id="lname" className="form-control" placeholder="Your last name"/>
                         </div>
                     </div>
     
@@ -154,7 +154,7 @@ class Layout extends React.Component {
                     <div className="row form-group">
                         <div className="col-md-12">
                             <label for="message">Message</label>
-                            <textarea name="message" id="message" cols="30" rows="10" className="form-control" placeholder="Say something about us"></textarea>
+                            <textarea name="message" id="message" cols="30" rows="10" className="form-control" placeholder="Say something to us"></textarea>
                         </div>
                     </div>
                     <div className="form-group">
@@ -171,35 +171,34 @@ class Layout extends React.Component {
             <div className="container">
                 <div className="row row-pb-md">
                     <div className="col-md-3 colorlib-widget">
-                        <h4>Lawfirm</h4>
-                        <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+                        <h4>Law Offices of Jeffery M Klein</h4>
+                        <p>WORKERS COMPENSATION ATTORNEY</p>
                     </div>
                     <div className="col-md-3 col-md-push-1">
                         <h4>Navigation</h4>
                         <ul className="colorlib-footer-links">
-                            <li><a href="https://google.com">Home</a></li>
-                            <li><a href="https://google.com">Practice Areas</a></li>
-                            <li><a href="https://google.com">Won Cases</a></li>
-                            <li><a href="https://google.com">Blog</a></li>
-                            <li><a href="https://google.com">About us</a></li>
+                            <li><a href="/">Features</a></li>
+                            <li><a href="/">About</a></li>
+                            <li><a href="/">Services</a></li>
+                            <li><a href="/">Contact</a></li>
+                            
                         </ul>
                     </div>
     
                     <div className="col-md-3 col-md-push-1">
                         <h4>Contact Information</h4>
                         <ul className="colorlib-footer-links">
-                            <li>198 West 21th Street, <br/> Suite 721 New York NY 10016</li>
-                            <li><a href="tel://1234567920">+ 1235 2355 98</a></li>
-                            <li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
+                            <li>1600 E 4th St #240 <br/> Santa Ana, CA 92701</li>
+                            <li><a href="tel://1714505-5402">(714) 505-5402</a></li>
+                            <li><a href="mailto:Jefferykleinlaw@aol.com">Jefferykleinlaw@aol.com</a></li>
                         </ul>
                     </div>
     
                     <div className="col-md-3 col-md-push-1">
                         <h4>Opening Hours</h4>
                         <ul className="colorlib-footer-links">
-                            <li>Mon - Thu: 9:00 - 21 00</li>
-                            <li>Fri 8:00 - 21 00</li>
-                            <li>Sat 9:30 - 15: 00</li>
+                            <li>Mon - Thu: 9:00AM - 6:00PM</li>
+                            <li>Fri 9:00AM - 4:00PM</li>
                         </ul>
                     </div>
     
@@ -208,15 +207,13 @@ class Layout extends React.Component {
                 <div className="row copyright">
                     <div className="col-md-12 text-center">
                         <p>
-                        <small className="block">&copy; 2018 LawFirm. All Rights Reserved. Created by <a href="https://colorlib.com/" rel="noopener noreferrer" target="_blank">Colorlib</a></small> 
-                        <small className="block">Demo Images: <a href="http://unsplash.co/" rel="noopener noreferrer" target="_blank">Unsplash</a></small>
+                        <small className="block">&copy; 1999 Law Offices of Jeffery M Klein. All Rights Reserved. Created by Nicki Stone.</small> 
                         </p>
                         <p>
                             <ul className="colorlib-social-icons">
-                                <li><a href="https://google.com"><i className="icon-twitter"></i></a></li>
-                                <li><a href="https://google.com"><i className="icon-facebook"></i></a></li>
-                                <li><a href="https://google.com"><i className="icon-linkedin"></i></a></li>
-                                <li><a href="https://google.com"><i className="icon-dribbble"></i></a></li>
+
+                                <li><a href="https://www.linkedin.com/in/jeffery-klein-15433284/"><i className="icon-linkedin"></i></a></li>
+         
                             </ul>
                         </p>
                     </div>
