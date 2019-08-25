@@ -16,7 +16,7 @@ class Layout extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-2">
-                            <div id="colorlib-logo"><a href="/"><img src="/images/logo.png" /></a></div>
+                            <div id="colorlib-logo"><a href="/"><img alt="JMK Law" src="/images/logo.png" /></a></div>
                         </div>
                         <div className="col-md-10 text-right menu-1">
                             <ul>
@@ -129,32 +129,32 @@ class Layout extends React.Component {
                 <form action="#">
                     <div className="row form-group">
                         <div className="col-md-6">
-                            <label for="fname">First Name</label>
+                            <label htmlFor="fname">First Name</label>
                             <input type="text" id="fname" className="form-control" placeholder="Your first name"/>
                         </div>
                         <div className="col-md-6">
-                            <label for="lname">Last Name</label>
+                            <label htmlFor="lname">Last Name</label>
                             <input type="text" id="lname" className="form-control" placeholder="Your last name"/>
                         </div>
                     </div>
     
                     <div className="row form-group">
                         <div className="col-md-12">
-                            <label for="email">Email</label> 
+                            <label htmlFor="email">Email</label> 
                             <input type="text" id="email" className="form-control" placeholder="Your email address"/>
                         </div>
                     </div>
     
                     <div className="row form-group">
                         <div className="col-md-12">
-                            <label for="subject">Subject</label>
+                            <label htmlFor="subject">Subject</label>
                             <input type="text" id="subject" className="form-control" placeholder="Your subject of this message"/>
                         </div>
                     </div>
     
                     <div className="row form-group">
                         <div className="col-md-12">
-                            <label for="message">Message</label>
+                            <label htmlFor="message">Message</label>
                             <textarea name="message" id="message" cols="30" rows="10" className="form-control" placeholder="Say something to us"></textarea>
                         </div>
                     </div>
@@ -210,13 +210,13 @@ class Layout extends React.Component {
                         <p>
                         <small className="block">&copy; 1999 Law Offices of Jeffery M Klein. All Rights Reserved. Created by Nicki Stone.</small> 
                         </p>
-                        <p>
+                        
                             <ul className="colorlib-social-icons">
 
                                 <li><a href="https://www.linkedin.com/in/jeffery-klein-15433284/"><i className="icon-linkedin"></i></a></li>
          
                             </ul>
-                        </p>
+                        
                     </div>
                 </div>
     
