@@ -10,23 +10,23 @@ class Counter extends React.Component {
             <div className="row">
                 <div className="col-md-3 text-center animate-box">
                     <span className="icon"><i className="flaticon-lawyer-1"></i></span>
-                    <span className="colorlib-counter js-counter" data-from="0" data-to="368" data-speed="5000" data-refresh-interval="50"></span>
+                    <span className="colorlib-counter js-counter" data-from="0" data-to="10000" data-speed="5000" data-refresh-interval="50"></span>
                     <span className="colorlib-counter-label">Successful Cases Completed</span>
                 </div>
                 <div className="col-md-3 text-center animate-box">
                     <span className="icon"><i className="flaticon-courthouse"></i></span>
-                    <span className="colorlib-counter js-counter" data-from="0" data-to="100" data-speed="5000" data-refresh-interval="50">%</span>
-                    <span className="colorlib-counter-label">Positive Feedback</span>
+                    <span className="colorlib-counter js-counter" data-from="0" data-to="90" data-speed="5000" data-refresh-interval="50"></span><span className="colorlib-counter-percent">%</span>
+                    <span className="colorlib-counter-label">Success Rate</span>
                 </div>
                 <div className="col-md-3 text-center animate-box">
                     <span className="icon"><i className="flaticon-libra"></i></span>
-                    <span className="colorlib-counter js-counter" data-from="0" data-to="2" data-speed="5000" data-refresh-interval="50">weeks</span>
-                    <span className="colorlib-counter-label">Average Time on Case</span>
+                    <span className="colorlib-counter js-counter" data-from="0" data-to="100" data-speed="5000" data-refresh-interval="50"></span><span className="colorlib-counter-percent">%</span>
+                    <span className="colorlib-counter-label">Permanent Disability Awards through Trial</span>
                 </div>
                 <div className="col-md-3 text-center animate-box">
                     <span className="icon"><i className="flaticon-police-badge"></i></span>
-                    <span className="colorlib-counter js-counter" data-from="0" data-to="32" data-speed="5000" data-refresh-interval="50">$</span>
-                    <span className="colorlib-counter-label">Average Cost Per Hour</span>
+                    <span className="colorlib-counter js-counter" data-from="0" data-to="100" data-speed="5000" data-refresh-interval="50"></span><span className="colorlib-counter-percent">%</span>
+                    <span className="colorlib-counter-label">Positive Feedback</span>
                 </div>
             </div>
         </div>

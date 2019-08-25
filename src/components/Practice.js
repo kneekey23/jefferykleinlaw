@@ -28,7 +28,7 @@ class Practice extends React.Component {
                             <i className="flaticon-padlock"></i>
                         </span>
                         <div className="desc">
-                            <h3>Hearing Loss</h3>
+                            <h3>Fibromyalgia</h3>
                             
                         </div>
                     </div>
@@ -50,7 +50,7 @@ class Practice extends React.Component {
                             <i className="flaticon-handcuffs"></i>
                         </span>
                         <div className="desc">
-                            <h3>UPS Injuries</h3>
+                            <h3>Heart & Strokes</h3>
                             
                         </div>
                     </div>

@@ -20,37 +20,44 @@ class Timeline extends React.Component {
             <div className="timepoint right">
                 <div className="content">
                 <h2>1984</h2>
-                <p>Became a W.C. Claims Adjustor</p>
+                <p>Became a W.C. Claims Adjustor for All State & Northbrook Insurance Co.</p>
                 </div>
             </div>
             <div className="timepoint left">
                 <div className="content">
                 <h2>1985</h2>
                 <p>American College of Law, J.D.</p>
+                <p>American JurisPrudence Award in Workers' Compensation Law</p>
                 </div>
             </div>
             <div className="timepoint right">
                 <div className="content">
                 <h2>1988</h2>
-                <p>Insurance Educational Association</p>
+                <p>Insurance Education Association Certification</p>
                 </div>
             </div>
             <div className="timepoint left">
                 <div className="content">
                 <h2>1991</h2>
-                <p>Supreme Court of the State of California (became an attorney)</p>
+                <p>Member of the California State Bar</p>
                 </div>
             </div>
             <div className="timepoint right">
                 <div className="content">
                 <h2>2001</h2>
-                <p>United State District Central Court</p>
+                <p>Member of the United State District Central Court</p>
                 </div>
             </div>
             <div className="timepoint left">
                 <div className="content">
-                <h2>2002</h2>
-                <p>Founded Law Corporation</p>
+                <h2>2010</h2>
+                <p>Orange County Sheriffs' Panelist List</p>
+                </div>
+            </div>
+            <div className="timepoint right">
+                <div className="content">
+                <h2>2016</h2>
+                <p>Panel of MBA Legends of Basketball</p>
                 </div>
             </div>
         </div>

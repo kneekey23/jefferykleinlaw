@@ -90,7 +90,8 @@ class Layout extends React.Component {
                     </div>
                     <div className="third-col third-col-color">
                         <span className="icon"><i className="icon-old-phone"></i></span>
-                        <h2>Call now at (714) 505-5402</h2>
+                        <h2>Call now for a FREE Consultation at (714) 505-5402</h2>
+                    
                         <h2>Email us at <a href="mailto:jefferykleinlaw@aol.com">Jefferykleinlaw@aol.com</a></h2>
                         <p>If you have any questions about a Workers' Compensation case, an injury that took place while at work or any other questions regarding Workers' Compensation, please either contact us below or stop by our office.</p>
                     </div>
@@ -197,7 +198,7 @@ class Layout extends React.Component {
                     <div className="col-md-3 col-md-push-1">
                         <h4>Opening Hours</h4>
                         <ul className="colorlib-footer-links">
-                            <li>Mon - Thu: 9:00AM - 6:00PM</li>
+                            <li>Mon - Thu: 9:00AM - 5:00PM</li>
                             <li>Fri 9:00AM - 4:00PM</li>
                         </ul>
                     </div>
