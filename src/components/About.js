@@ -4,9 +4,8 @@ class About extends React.Component {
     render() {
         return (        
         <div id="colorlib-content">
-        <div className="video colorlib-video" style={{backgroundImage: 'url(images/img_bg_3.jpg)'}}>
-            
-            <div className="overlay"></div>
+        <div className="video colorlib-video" style={{backgroundImage: 'url(images/dad3.jpeg)', transform: 'rotate(0deg)'}}>
+         
         </div>
         <div className="choose animate-box">
             <div className="colorlib-heading">

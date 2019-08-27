@@ -6,7 +6,7 @@ class Timeline extends React.Component {
         <div id="colorlib-timeline">
         <div className="container timeline">
         <div className="row animate-box">
-                    <div className="col-md-8 col-md-offset-2 text-center">
+                    <div className="col-md-8 col-md-offset-2 text-center historyTitle">
                         <h2>My History</h2>
                     </div>
                 </div>

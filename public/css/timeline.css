@@ -12,6 +12,10 @@
   
   }
 
+  .historyTitle {
+    padding: 1em;
+  }
+
   .colorlib-timeline {
     background-color: #474e5d;
   }

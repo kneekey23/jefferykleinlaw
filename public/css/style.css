@@ -209,7 +209,9 @@ h1, h2, h3, h4, h5, h6, figure {
     background: rgba(0, 0, 0, 0.7); }
 
 .colorlib-video {
-  overflow: hidden; }
+  overflow: hidden;
+  transform: rotate(90deg);
+ }
   @media screen and (max-width: 992px) {
     .colorlib-video {
       height: 450px; } }
@@ -444,11 +446,12 @@ h1, h2, h3, h4, h5, h6, figure {
   -moz-flex-wrap: wrap;
   width: 100%;
   float: left;
+  
    }
 
-#colorlib-content {
+/* #colorlib-content {
   padding-bottom: 1em;
-}
+} */
 
 #colorlib-started {
   padding-bottom: 1em !important;
@@ -469,7 +472,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table;
   width: 50%;
   background-size: cover;
-  background-position: center center;
+
   background-repeat: no-repeat;
   position: relative;
   display: -webkit-box;
@@ -485,7 +488,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #colorlib-content .choose,
 #colorlib-consult .choose {
   width: 50%;
-  padding: 40px 40px; }
+  padding: 42px 40px; }
 
 #colorlib-content .choose-form,
 #colorlib-consult .choose-form {

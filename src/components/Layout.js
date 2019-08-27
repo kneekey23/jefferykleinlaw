@@ -3,6 +3,7 @@ import Counter from './Counter';
 import Timeline from './Timeline';
 import About from './About';
 import Practice from './Practice';
+import Contact from './Contact';
 
 class Layout extends React.Component {
     render() {
@@ -100,7 +101,7 @@ class Layout extends React.Component {
         </div>
 
        <About />
-       <div id="colorlib-started" style={{backgroundImage:'url(images/img_bg_2.jpg)'}} data-stellar-background-ratio="0.5">
+       <div id="colorlib-started" style={{backgroundImage:'url(images/books.jpg)'}} data-stellar-background-ratio="0.5">
             <div className="overlay"></div>
             <div className="container">
                 <div className="row animate-box">
@@ -115,59 +116,8 @@ class Layout extends React.Component {
        <Timeline />
        <Counter />
        <Practice />
-    
+       <Contact />
 
-        
-    
-        <div id="colorlib-consult">
-            <div className="video colorlib-video" style={{backgroundImage: 'url(images/books.jpg)'}} data-stellar-background-ratio="0.5">
-            </div>
-            <div className="choose choose-form animate-box">
-                <div className="colorlib-heading">
-                    <h2>Contact Us</h2>
-                </div>
-                <form action="#">
-                    <div className="row form-group">
-                        <div className="col-md-6">
-                            <label htmlFor="fname">First Name</label>
-                            <input type="text" id="fname" className="form-control" placeholder="Your first name"/>
-                        </div>
-                        <div className="col-md-6">
-                            <label htmlFor="lname">Last Name</label>
-                            <input type="text" id="lname" className="form-control" placeholder="Your last name"/>
-                        </div>
-                    </div>
-    
-                    <div className="row form-group">
-                        <div className="col-md-12">
-                            <label htmlFor="email">Email</label> 
-                            <input type="text" id="email" className="form-control" placeholder="Your email address"/>
-                        </div>
-                    </div>
-    
-                    <div className="row form-group">
-                        <div className="col-md-12">
-                            <label htmlFor="subject">Subject</label>
-                            <input type="text" id="subject" className="form-control" placeholder="Your subject of this message"/>
-                        </div>
-                    </div>
-    
-                    <div className="row form-group">
-                        <div className="col-md-12">
-                            <label htmlFor="message">Message</label>
-                            <textarea name="message" id="message" cols="30" rows="10" className="form-control" placeholder="Say something to us"></textarea>
-                        </div>
-                    </div>
-                    <div className="form-group">
-                        <input type="submit" value="Send Message" className="btn btn-primary"/>
-                    </div>
-    
-                </form>	
-            </div>
-        </div>
-
-       
-            
         <footer id="colorlib-footer" role="contentinfo">
             <div className="container">
                 <div className="row row-pb-md">
