@@ -1,0 +1,43 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'sam-app
+
+  Sample SAM Template for sam-app
+
+  '
+Globals:
+  Function:
+    Timeout: 3
+Outputs:
+  SendEmailApi:
+    Description: API Gateway endpoint URL for Prod stage for Send Email function
+    Value:
+      Fn::Sub: https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/send/
+  SendEmailFunction:
+    Description: Hello World Lambda Function ARN
+    Value:
+      Fn::GetAtt:
+      - SendEmailFunction
+      - Arn
+  SendEmailFunctionIamRole:
+    Description: Implicit IAM Role created for Send email function
+    Value:
+      Fn::GetAtt:
+      - SendEmailFunctionRole
+      - Arn
+Resources:
+  SendEmailFunction:
+    Properties:
+      CodeUri: s3://jefferykleinlaw/2722c540242ea76eed50e4343ce4b7e8
+      Events:
+        SendEmail:
+          Properties:
+            Method: post
+            Path: /send
+          Type: Api
+      Handler: app.lambdaHandler
+      Policies:
+      - SESCrudPolicy:
+          IdentityName: contact@jefferymkleinlaw.com
+      Runtime: nodejs8.10
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31
