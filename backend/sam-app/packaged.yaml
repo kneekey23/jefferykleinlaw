@@ -5,6 +5,11 @@ Description: 'sam-app
 
   '
 Globals:
+  Api:
+    Cors:
+      AllowHeaders: '''Content-Type'''
+      AllowMethods: '''OPTIONS,POST,GET'''
+      AllowOrigin: '''http://localhost:3000'''
   Function:
     Timeout: 3
 Outputs:
@@ -27,7 +32,7 @@ Outputs:
 Resources:
   SendEmailFunction:
     Properties:
-      CodeUri: s3://jefferykleinlaw/2722c540242ea76eed50e4343ce4b7e8
+      CodeUri: s3://jefferykleinlaw/81b4279a166131475a25c35fdb68ed41
       Events:
         SendEmail:
           Properties:

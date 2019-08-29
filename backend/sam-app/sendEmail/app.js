@@ -3,20 +3,17 @@ var AWS = require('aws-sdk');
 
 // Set the Region 
 AWS.config.update({region: 'us-east-1'});
-var SES = new AWS.SES({apiVersion: '2010-12-01'})
-
+var ses = new AWS.SES({apiVersion: '2010-12-01'})
+let response;
 exports.lambdaHandler = async (event, context) => {
 
     
     let body = JSON.parse(event.body);
-    console.log(body)
-    console.log(body.message)
-
     // Create sendEmail params 
     var params = {
     Destination: { /* required */
         ToAddresses: [
-        'jefferymkleinlaw@aol.com'
+        'contact@jefferymkleinlaw.com'
         ]
     },
     Message: { /* required */
@@ -31,19 +28,38 @@ exports.lambdaHandler = async (event, context) => {
             Data: "FROM " + body.fromEmail + ": " + body.subject
             }
         },
-    Source: 'jefferykleinlaw@aol.com' /* required */
+    Source: 'contact@jefferymkleinlaw.com' /* required */
 
     };
-    console.log(params);
+
     // Create the promise and SES service object
     try {
-    let data = SES.sendEmail(params).promise();
-    console.log(data);
-    return data;
-
+    let data = await ses.sendEmail(params).promise()
+        console.log(data);
+        response = {
+            "isBase64Encoded": false,
+            "statusCode": 200,
+            "headers": { 
+                "Content-Type": "application/json", 
+                "Access-Control-Allow-Origin": "http://localhost:3000",
+            },
+            "body": data
+        }
+        return response;
+  
+  
     } catch (err) {
         console.log(err);
-        return err;
+        response = {
+            "isBase64Encoded": false,
+            "statusCode": 500,
+            "headers": { 
+                "Content-Type": "application/json",
+                "Access-Control-Allow-Origin": "http://localhost:3000",
+            },
+            "body": err
+        }
+        return response;
     }
 
 };

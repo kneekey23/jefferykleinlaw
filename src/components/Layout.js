@@ -93,7 +93,7 @@ class Layout extends React.Component {
                         <span className="icon"><i className="icon-old-phone"></i></span>
                         <h2>Call now for a FREE Consultation at (714) 505-5402</h2>
                     
-                        <h2>Email us at <a href="mailto:jefferykleinlaw@aol.com">Jefferykleinlaw@aol.com</a></h2>
+                        <h2>Email us at <a href="mailto:jefferykleinlaw@aol.com">contact@jefferymkleinlaw.com</a></h2>
                         <p>If you have any questions about a Workers' Compensation case, an injury that took place while at work or any other questions regarding Workers' Compensation, please either contact us below or stop by our office.</p>
                     </div>
                 </div>
@@ -141,7 +141,7 @@ class Layout extends React.Component {
                         <ul className="colorlib-footer-links">
                             <li>1600 E 4th St #240 <br/> Santa Ana, CA 92701</li>
                             <li><a href="tel://1714505-5402">(714) 505-5402</a></li>
-                            <li><a href="mailto:Jefferykleinlaw@aol.com">Jefferykleinlaw@aol.com</a></li>
+                            <li><a href="mailto:contact@jefferymkleinlaw.com">contact@jefferymkleinlaw.com</a></li>
                         </ul>
                     </div>
     
