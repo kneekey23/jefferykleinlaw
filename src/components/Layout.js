@@ -44,7 +44,7 @@ class Layout extends React.Component {
                                    <div className="slider-text-inner">
                                        <h1>Law Offices of Jeffery M Klein</h1>
                                         <h2>Orange County Worker’s Compensation Lawyer</h2>
-                                        <p><a className="btn btn-primary btn-lg" href="/">Make An Appointment</a></p>
+                                        <p><a className="btn btn-primary btn-lg" href="#colorlib-consult">Make An Appointment</a></p>
                                    </div>
                                </div>
                            </div>
