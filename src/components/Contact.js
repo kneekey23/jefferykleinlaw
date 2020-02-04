@@ -42,7 +42,7 @@ class Contact extends React.Component {
     render() {
         return (
             <div id="colorlib-consult">
-            <div className="video" style={{backgroundImage: `url(${ isBrowserSupportWebP ? "images/dad1.webp" : "images/dad1.jpeg"})`, transform: 'rotate(90deg)'}}>
+            <div className="video" style={{backgroundImage: `url(${ isBrowserSupportWebP ? "images/dad1.webp" : "images/dad1.jpeg"})`}}>
             </div>
             <div className="choose choose-form animate-box">
                 <div className="colorlib-heading">
