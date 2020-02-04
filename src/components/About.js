@@ -1,10 +1,12 @@
 import React from 'react'
+import { canUseWebP } from "react-img-webp";
+const isBrowserSupportWebP = canUseWebP(); 
 
 class About extends React.Component {
     render() {
         return (        
         <div id="colorlib-content">
-        <div className="video colorlib-video" style={{backgroundImage: 'url(images/dad3.jpeg)', transform: 'rotate(0deg)'}}>
+        <div className="video colorlib-video" style={{backgroundImage: `url(${ isBrowserSupportWebP ? "images/dad3.webp" : "images/dad3.jpeg"})`, transform: 'rotate(0deg)'}}>
          
         </div>
         <div className="choose animate-box">

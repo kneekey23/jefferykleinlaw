@@ -1,10 +1,12 @@
 import React from 'react';
+import { canUseWebP } from "react-img-webp";
+const isBrowserSupportWebP = canUseWebP(); 
 
 class Counter extends React.Component {
 
     render() {
         return (
-    <div id="colorlib-counter" className="colorlib-counters" style={{backgroundImage: 'url(images/img_bg_3.jpg)'}} data-stellar-background-ratio="0.5">
+    <div id="colorlib-counter" className="colorlib-counters" style={{backgroundImage: `url(${ isBrowserSupportWebP ? "images/img_bg_3.webp" : "images/img_bg_3.jpg"})`}} data-stellar-background-ratio="0.5">
         <div className="overlay"></div>
         <div className="container">
             <div className="row">

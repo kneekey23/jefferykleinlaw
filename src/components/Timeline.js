@@ -57,7 +57,7 @@ class Timeline extends React.Component {
             <div className="timepoint right">
                 <div className="content">
                 <h2>2016</h2>
-                <p>Panel of MBA Legends of Basketball</p>
+                <p>Panel of NBA Legends of Basketball</p>
                 </div>
             </div>
         </div>

@@ -4,6 +4,8 @@ import Timeline from './Timeline';
 import About from './About';
 import Practice from './Practice';
 import Contact from './Contact';
+import { Image, canUseWebP } from "react-img-webp";
+const isBrowserSupportWebP = canUseWebP(); 
 
 class Layout extends React.Component {
     render() {
@@ -17,7 +19,11 @@ class Layout extends React.Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-2">
-                            <div id="colorlib-logo"><a href="/"><img alt="JMK Law" src="/images/logo.png" /></a></div>
+                            <div id="colorlib-logo">
+                                <a href="/">
+                                <Image alt="Law Offices of Jeffery M Klein Logo" src={"/images/logo.png"} webP={"/images/logo.webp"} />
+                                </a>
+                            </div>
                         </div>
                         <div className="col-md-10 text-right menu-1">
                             <ul>
@@ -36,7 +42,7 @@ class Layout extends React.Component {
         <aside id="colorlib-hero" className="js-fullheight">
             <div className="flexslider js-fullheight">
                 <ul className="slides">
-                   <li style={ {backgroundImage : "url('images/img_bg_2.jpg')"} }>
+                   <li style={ {backgroundImage : `url(${ isBrowserSupportWebP ? "images/img_bg_2.webp" : "images/img_bg_2.jpg"})`} }>
                        <div className="overlay-gradient"></div>
                        <div className="container">
                            <div className="row">
@@ -50,7 +56,7 @@ class Layout extends React.Component {
                            </div>
                        </div>
                    </li>
-                   <li style={{backgroundImage: 'url(images/gavel.jpg)'}}>
+                   <li style={{backgroundImage: `url(${ isBrowserSupportWebP ? "images/gavel.webp" : "images/gavel.jpg"})`}}>
                        <div className="overlay-gradient"></div>
                        <div className="container">
                            <div className="row">
@@ -64,7 +70,7 @@ class Layout extends React.Component {
                            </div>
                        </div>
                    </li>
-                   <li style={{backgroundImage: 'url(images/books.jpg)'}}>
+                   <li style={{backgroundImage: `url(${ isBrowserSupportWebP ? "images/books.webp" : "images/books.jpg"})`}}>
                        <div className="overlay-gradient"></div>
                        <div className="container">
                            <div className="row">
@@ -101,7 +107,7 @@ class Layout extends React.Component {
         </div>
 
        <About />
-       <div id="colorlib-started" style={{backgroundImage:'url(images/books.jpg)'}} data-stellar-background-ratio="0.5">
+       <div id="colorlib-started" style={{backgroundImage:`url(${ isBrowserSupportWebP ? "images/books.webp" : "images/books.jpg"})`}} data-stellar-background-ratio="0.5">
             <div className="overlay"></div>
             <div className="container">
                 <div className="row animate-box">
@@ -160,13 +166,9 @@ class Layout extends React.Component {
                         <p>
                         <small className="block">&copy; 1999 Law Offices of Jeffery M Klein. All Rights Reserved. Created by Nicki Stone.</small> 
                         </p>
-                        
                             <ul className="colorlib-social-icons">
-
                                 <li><a href="https://www.linkedin.com/in/jeffery-klein-15433284/"><i className="icon-linkedin"></i></a></li>
-         
                             </ul>
-                        
                     </div>
                 </div>
     
