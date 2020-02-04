@@ -28,9 +28,9 @@ class Layout extends React.Component {
                         <div className="col-md-10 text-right menu-1">
                             <ul>
                                 <li className="active"><a href="index.html">Features</a></li>
-                                <li><a href="practice.html">About</a></li>
-                                <li><a href="won.html">Services</a></li>
-                                <li><a href="about.html">Contact</a></li> 
+                                <li><a href="#colorlib-content">About</a></li>
+                                <li><a href="#colorlib-practice">Services</a></li>
+                                <li><a href="#colorlib-consult">Contact</a></li> 
                             </ul>
                         </div>
                     </div>
