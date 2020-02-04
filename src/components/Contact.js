@@ -32,7 +32,7 @@ class Contact extends React.Component {
         }
         fetch('https://2myf2chggi.execute-api.us-east-1.amazonaws.com/Prod/send/', {
             method: "POST",
-            headers: {"Content-Type": "application/json", "Access-Control-Allow-Origin": "*"},
+            headers: {"Content-Type": "application/json"},
             body: JSON.stringify(data)
         }).then(response => {
             console.log(response);
