@@ -1,5 +1,7 @@
 import React from 'react';
+import {NotificationContainer, NotificationManager} from 'react-notifications';
 import { canUseWebP } from "react-img-webp";
+import 'react-notifications/lib/notifications.css';
 const isBrowserSupportWebP = canUseWebP(); 
 
 class Contact extends React.Component {
@@ -36,6 +38,13 @@ class Contact extends React.Component {
             body: JSON.stringify(data)
         }).then(response => {
             console.log(response);
+            if (response.status === 200) {
+                this.setState({message: '', subject: '', email: '', firstName: '', lastName: ''})
+                NotificationManager.success('Success', 'Your message has been sent and we will respond to you as soon as we can', 2000)
+            }
+            else {
+                NotificationManager.error('Error', 'An error occurred while trying to email our office a message. Please try again or call us at the number below', 5000);
+            }
         })
     }
 
@@ -86,6 +95,7 @@ class Contact extends React.Component {
     
                 </form>	
             </div>
+            <NotificationContainer/>
         </div>
         )
     }
