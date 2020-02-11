@@ -2,12 +2,13 @@ import React from 'react';
 
 class Practice extends React.Component {
     render() {
-        return (        <div id="colorlib-practice">
+        return (        
+        <div id="colorlib-practice">
         <div className="container">
             <div className="row animate-box">
                 <div className="col-md-8 col-md-offset-2 text-center colorlib-heading">
                     <h2>Practice Areas</h2>
-                    <p>Jeff handles many different areas of practice within Worker's Compensation.If you have any of the below injury types, he has expertise in all of them and more.</p>
+                    <p>Jeff handles many different types of injuries within Worker's Compensation. If you have any of the below injury types, he has expertise in all of them and more.</p>
                 </div>
             </div>
             <div className="row">

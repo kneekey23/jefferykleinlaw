@@ -17,7 +17,7 @@ class Counter extends React.Component {
                 </div>
                 <div className="col-md-3 text-center animate-box">
                     <span className="icon"><i className="flaticon-courthouse"></i></span>
-                    <span className="colorlib-counter js-counter" data-from="0" data-to="90" data-speed="5000" data-refresh-interval="50"></span><span className="colorlib-counter-percent">%</span>
+                    <span className="colorlib-counter js-counter" data-from="0" data-to="98" data-speed="5000" data-refresh-interval="50"></span><span className="colorlib-counter-percent">%</span>
                     <span className="colorlib-counter-label">Success Rate</span>
                 </div>
                 <div className="col-md-3 text-center animate-box">

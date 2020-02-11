@@ -18,14 +18,17 @@ class Layout extends React.Component {
             <div className="top-menu">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-2">
+                        <div className="col-md-1">
                             <div id="colorlib-logo">
                                 <a href="/">
                                 <Image alt="Law Offices of Jeffery M Klein Logo" src={"/images/logo.png"} webP={"/images/logo.webp"} />
                                 </a>
                             </div>
                         </div>
-                        <div className="col-md-10 text-right menu-1">
+                        <div className="col-md-5 hidden-xs phoneNumberStyle">
+                            <span className="phoneNumberText">begin with a free consultation</span><a className="phoneNumber" href="tel:(714) 505-5402">(714) 505-5402</a>
+                        </div>
+                        <div className="col-md-6 text-right menu-1">
                             <ul>
                                 <li className="active"><a href="#colorlib-content">About</a></li>
                                 <li><a href="#colorlib-practice">Services</a></li>
@@ -47,8 +50,8 @@ class Layout extends React.Component {
                            <div className="row">
                                <div className="col-md-8 col-md-offset-2 text-center js-fullheight slider-text">
                                    <div className="slider-text-inner">
-                                       <h1>Law Offices of Jeffery M Klein</h1>
-                                        <h2>Orange County Worker’s Compensation Lawyer</h2>
+                                       <h1>Law Offices of Jeffery Klein</h1>
+                                        <h2>Worker’s Compensation Lawyer | Top Lawyers in California</h2>
                                         <p><a className="btn btn-primary btn-lg" href="#colorlib-consult">Make An Appointment</a></p>
                                    </div>
                                </div>
@@ -92,13 +95,13 @@ class Layout extends React.Component {
                     <div className="third-col">
                         <span className="icon"><i className="icon-cog"></i></span>
                         <h2>Need a Workers' Comp Attorney?</h2>
-                        <p>As one of Orange County's top Workers' Compensation Lawyers, Jeffery Klein is dedicated to providing his clients with all the knowledge they need to get them through these difficult times. </p>
+                        <p>As one of Orange County's top Workers' Compensation Lawyers, Jeffery Klein is dedicated to providing his clients with all the knowledge they need to get them through these difficult times. He has represented all three sides of the business, starting his career as a claims adjustor, then moving to become a defense attorney and finally now solely representing the injured worker. With this knowledge of the entire scope of the business, he is able to foresee all possible moves and effectively navigate your case.</p>
                     </div>
                     <div className="third-col third-col-color">
                         <span className="icon"><i className="icon-old-phone"></i></span>
                         <h2>Call now for a FREE Consultation at (714) 505-5402</h2>
                     
-                        <h2>Email us at <a href="mailto:jefferykleinlaw@aol.com">contact@jefferymkleinlaw.com</a></h2>
+                        <h2>Or email us at <a href="mailto:jefferykleinlaw@aol.com">contact@jefferymkleinlaw.com</a></h2>
                         <p>If you have any questions about a Workers' Compensation case, an injury that took place while at work or any other questions regarding Workers' Compensation, please either contact us below or stop by our office.</p>
                     </div>
                 </div>
