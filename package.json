@@ -9,7 +9,7 @@
     "react-https-redirect": "^1.1.0",
     "react-img-webp": "^2.0.2",
     "react-notifications": "^1.4.3",
-    "react-scripts": "3.1.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
