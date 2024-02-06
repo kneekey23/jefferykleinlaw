@@ -4,6 +4,7 @@ import Timeline from './Timeline';
 import About from './About';
 import Practice from './Practice';
 import Contact from './Contact';
+import Map from './Map';
 import { Image, canUseWebP } from "react-img-webp";
 const isBrowserSupportWebP = canUseWebP(); 
 
@@ -27,7 +28,7 @@ class Layout extends React.Component {
                         </div>
                         <div className="col-md-5 hidden-xs phoneNumberStyle">
                             <span className="phoneNumberText">call for a free consultation</span><a className="phoneNumber" href="tel:(714) 505-5402">(714) 505-5402</a>
-                            <span className="phoneNumberText">or text us at</span><a className="phoneNumber" href="tel:(714) 253-2504">(714) 253-2504</a>
+                            <p><span className="phoneNumberText">or text us at</span><a className="phoneNumber" href="tel:(714) 253-2504">(714) 253-2504</a></p>
                         </div>
                         <div className="col-md-6 text-right menu-1">
                             <ul>
@@ -126,7 +127,7 @@ class Layout extends React.Component {
        <Counter />
        <Practice />
        <Contact />
-
+       <Map />
         <footer id="colorlib-footer" role="contentinfo">
             <div className="container">
                 <div className="row row-pb-md">
