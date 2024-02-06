@@ -26,7 +26,8 @@ class Layout extends React.Component {
                             </div>
                         </div>
                         <div className="col-md-5 hidden-xs phoneNumberStyle">
-                            <span className="phoneNumberText">begin with a free consultation</span><a className="phoneNumber" href="tel:(714) 505-5402">(714) 505-5402</a>
+                            <span className="phoneNumberText">call for a free consultation</span><a className="phoneNumber" href="tel:(714) 505-5402">(714) 505-5402</a>
+                            <span className="phoneNumberText">or text us at</span><a className="phoneNumber" href="tel:(714) 253-2504">(714) 253-2504</a>
                         </div>
                         <div className="col-md-6 text-right menu-1">
                             <ul>
@@ -99,8 +100,8 @@ class Layout extends React.Component {
                     </div>
                     <div className="third-col third-col-color">
                         <span className="icon"><i className="icon-old-phone"></i></span>
-                        <h2>Call now for a FREE Consultation at (714) 505-5402</h2>
-                    
+                        <h2>Call or text us now for a FREE Consultation at (714) 505-5402</h2>
+                        <h2>Or text us at (714) 253-2504</h2>
                         <h2>Or email us at <a href="mailto:jefferykleinlaw@aol.com">contact@jefferymkleinlaw.com</a></h2>
                         <p>If you have any questions about a Workers' Compensation case, an injury that took place while at work or any other questions regarding Workers' Compensation, please either contact us below or stop by our office.</p>
                     </div>

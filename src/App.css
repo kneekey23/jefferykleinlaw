@@ -53,3 +53,7 @@
 .form-group {
   color: white !important;
 }
+
+.red-text {
+  color: red;
+}
