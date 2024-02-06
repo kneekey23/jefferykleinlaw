@@ -48,11 +48,52 @@ class Practice extends React.Component {
                 <div className="col-md-3 text-center animate-box">
                     <div className="services">
                         <span className="icon">
-                            <i className="flaticon-handcuffs"></i>
+                            <i className="flaticon-libra"></i>
                         </span>
                         <div className="desc">
                             <h3>Heart & Strokes</h3>
                             
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3 text-center animate-box">
+                    <div className="services">
+                        <span className="icon">
+                            <i className="flaticon-jury"></i>
+                        </span>
+                        <div className="desc">
+                            <h3>Head Injuries</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3 text-center animate-box">
+                    <div className="services">
+                        <span className="icon">
+                            <i className="flaticon-handcuffs"></i>
+                        </span>
+                        <div className="desc">
+                            <h3>Upper/Lower Extremities</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3 text-center animate-box">
+                    <div className="services">
+                        <span className="icon">
+                            <i className="flaticon-police-badge"></i>
+                        </span>
+                        <div className="desc">
+                            <h3>Personal Injury</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-3 text-center animate-box">
+                    <div className="services">
+                        <span className="icon">
+                            <i className="flaticon-lawyer"></i>
+                        </span>
+                        <div className="desc">
+                            <h3>Auto Injury</h3>
                         </div>
                     </div>
                 </div>
