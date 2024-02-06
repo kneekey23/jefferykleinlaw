@@ -52,7 +52,7 @@ class Layout extends React.Component {
                                    <div className="slider-text-inner">
                                        <h1>Law Offices of Jeffery Klein</h1>
                                         <h2>Worker’s Compensation Lawyer | Top Lawyers in California</h2>
-                                        <p><a className="btn btn-primary btn-lg" href="#colorlib-consult">Make An Appointment</a></p>
+                                        <p><a className="btn btn-primary btn-lg" href="#colorlib-consult">Contact Us</a></p>
                                    </div>
                                </div>
                            </div>
