@@ -97,6 +97,7 @@ class Layout extends React.Component {
                     <div className="third-col">
                         <span className="icon"><i className="icon-cog"></i></span>
                         <h2>Need a Workers' Comp Attorney?</h2>
+                        <h2>We are here to fight and protect you!</h2>
                         <p>As one of Orange County's top Workers' Compensation Lawyers, Jeffery Klein is dedicated to providing his clients with all the knowledge they need to get them through these difficult times. He has represented all three sides of the business, starting his career as a claims adjustor, then moving to become a defense attorney and finally now solely representing the injured worker. With this knowledge of the entire scope of the business, he is able to foresee all possible moves and effectively navigate your case.</p>
                     </div>
                     <div className="third-col third-col-color">
