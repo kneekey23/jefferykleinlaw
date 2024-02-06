@@ -8,7 +8,7 @@ class Practice extends React.Component {
             <div className="row animate-box">
                 <div className="col-md-8 col-md-offset-2 text-center colorlib-heading">
                     <h2>Practice Areas</h2>
-                    <p>Jeff handles many different types of injuries for all ages within Worker's Compensation. For example, we assist workers that are injured from machinery, heavy lifting, repetitive trauma injuries, carpal tunnel, burns and any restaurant related injuries.  If you have any of the below injury types, he has expertise in all of them and more.</p>
+                    <p>Jeff handles many different types of injuries for all ages within Worker's Compensation. <b>For example, we assist workers that are injured from machinery, heavy lifting, repetitive trauma injuries, carpal tunnel, burns and any restaurant related injuries.</b>  If you have any of the below injury types, he has expertise in all of them and more.</p>
                 </div>
             </div>
             <div className="row">
