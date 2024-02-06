@@ -114,7 +114,7 @@ class Layout extends React.Component {
             <div className="container">
                 <div className="row animate-box">
                     <div className="col-md-8 col-md-offset-2 text-center colorlib-heading colorlib-heading2">
-                        <h2>35 Years of Experience in Various Cases</h2>
+                        <h2>44 Years of Experience in Various Cases</h2>
                         <p>We help people effectively receive compensation for their work injury and get their lives back!</p>
                         <p><a href="/" className="btn btn-primary btn-lg">Consultation</a></p>
                     </div>
