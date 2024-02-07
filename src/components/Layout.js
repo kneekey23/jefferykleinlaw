@@ -5,11 +5,8 @@ import About from './About';
 import Practice from './Practice';
 import Contact from './Contact';
 import Map from './Map';
-import { Image, canUseWebP } from "react-img-webp";
-const isBrowserSupportWebP = canUseWebP(); 
 
-class Layout extends React.Component {
-    render() {
+function Layout() {
         return (
         <div>
         <div className="colorlib-loader"></div>
@@ -22,7 +19,7 @@ class Layout extends React.Component {
                         <div className="col-md-1">
                             <div id="colorlib-logo">
                                 <a href="/">
-                                <Image alt="Law Offices of Jeffery M Klein Logo" src={"/images/logo.png"} webP={"/images/logo.webp"} />
+                                <img alt="Law Offices of Jeffery M Klein Logo" src="/images/logo.webp" />
                                 </a>
                             </div>
                         </div>
@@ -46,7 +43,7 @@ class Layout extends React.Component {
         <aside id="colorlib-hero" className="js-fullheight">
             <div className="flexslider js-fullheight">
                 <ul className="slides">
-                   <li style={ {backgroundImage : `url(${ isBrowserSupportWebP ? "images/img_bg_2.webp" : "images/img_bg_2.jpg"})`} }>
+                   <li style={ {backgroundImage : `url("images/img_bg_2.webp")`} }>
                        <div className="overlay-gradient"></div>
                        <div className="container">
                            <div className="row">
@@ -60,7 +57,7 @@ class Layout extends React.Component {
                            </div>
                        </div>
                    </li>
-                   <li style={{backgroundImage: `url(${ isBrowserSupportWebP ? "images/gavel.webp" : "images/gavel.jpg"})`}}>
+                   <li style={{backgroundImage: `url("images/gavel.webp")`}}>
                        <div className="overlay-gradient"></div>
                        <div className="container">
                            <div className="row">
@@ -68,13 +65,13 @@ class Layout extends React.Component {
                                    <div className="slider-text-inner">
                                         <h1>Law Offices of Jeffery M Klein</h1>
                                         <h2>Orange County Worker’s Compensation Attorney</h2>
-                                        <p><a className="btn btn-primary btn-lg btn-learn" href="/">Make An Appointment</a></p>
+                                        <p><a className="btn btn-primary btn-lg btn-learn" href="#colorlib-consult">Contact Us</a></p>
                                    </div>
                                </div>
                            </div>
                        </div>
                    </li>
-                   <li style={{backgroundImage: `url(${ isBrowserSupportWebP ? "images/books.webp" : "images/books.jpg"})`}}>
+                   <li style={{backgroundImage: `url("images/books.webp")`}}>
                        <div className="overlay-gradient"></div>
                        <div className="container">
                            <div className="row">
@@ -82,7 +79,7 @@ class Layout extends React.Component {
                                    <div className="slider-text-inner">
                                    <h1>Law Offices of Jeffery M Klein</h1>
                                         <h2>Orange County Worker’s Compensation Attorney</h2>
-                                        <p><a className="btn btn-primary btn-lg btn-learn" href="/">Make An Appointment</a></p>
+                                        <p><a className="btn btn-primary btn-lg btn-learn" href="#colorlib-consult">Contact Us</a></p>
                                    </div>
                                </div>
                            </div>
@@ -112,7 +109,7 @@ class Layout extends React.Component {
         </div>
 
        <About />
-       <div id="colorlib-started" style={{backgroundImage:`url(${ isBrowserSupportWebP ? "images/books.webp" : "images/books.jpg"})`}} data-stellar-background-ratio="0.5">
+       <div id="colorlib-started" style={{backgroundImage:`url("images/books.webp")`}} data-stellar-background-ratio="0.5">
             <div className="overlay"></div>
             <div className="container">
                 <div className="row animate-box">
@@ -186,7 +183,6 @@ class Layout extends React.Component {
         </div>
         </div>
         )
-    }
 }
 
 export default Layout;

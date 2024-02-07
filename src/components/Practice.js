@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Practice extends React.Component {
-    render() {
+function Practice() {
         return (        
         <div id="colorlib-practice">
         <div className="container">
@@ -101,6 +100,5 @@ class Practice extends React.Component {
         </div>
     </div>
 )
-    }
 }
 export default Practice;

@@ -1,42 +1,39 @@
 import React from 'react';
-//import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
+import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
 
-class Map extends React.Component {
-
-    render() {
-        // const libraries = ['places'];
-        // const mapContainerStyle = {
-        // width: '100vw',
-        // height: '100vh',
-        // };
-        // const center = {
-        // lat: 7.2905715, // default latitude
-        // lng: 80.6337262, // default longitude
-        // };
-        // const { isLoaded, loadError } = useLoadScript({
-        //     googleMapsApiKey: 'YOUR_API_KEY',
-        //     libraries,
-        //   });
+function Map() {
+        const libraries = ['places'];
+        const mapContainerStyle = {
+        width: '100vw',
+        height: '100vh',
+        };
+        const center = {
+        lat: 7.2905715, // default latitude
+        lng: 80.6337262, // default longitude
+        };
+        const { isLoaded, loadError } = useLoadScript({
+            googleMapsApiKey: 'YOUR_API_KEY',
+            libraries,
+          });
         
-        //   if (loadError) {
-        //     return <div>Error loading maps</div>;
-        //   }
+          if (loadError) {
+            return <div>Error loading maps</div>;
+          }
         
-        //   if (!isLoaded) {
-        //     return <div>Loading maps</div>;
-        //   }
+          if (!isLoaded) {
+            return <div>Loading maps</div>;
+          }
         
         return (
             <div>
-            {/* <GoogleMap
+            <GoogleMap
               mapContainerStyle={mapContainerStyle}
               zoom={10}
               center={center}
             >
               <Marker position={center} />
-            </GoogleMap> */}
+            </GoogleMap>
           </div>
         )
-    }
 }
 export default Map;

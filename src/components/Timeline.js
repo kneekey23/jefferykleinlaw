@@ -1,7 +1,6 @@
 import React from 'react';
 
-class Timeline extends React.Component {
-    render() {
+function Timeline() {
         return( 
         <div id="colorlib-timeline">
         <div className="container timeline">
@@ -62,6 +61,6 @@ class Timeline extends React.Component {
             </div>
         </div>
     </div>)
-    }
 }
+
 export default Timeline;
